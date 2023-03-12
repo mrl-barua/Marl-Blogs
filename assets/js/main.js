@@ -239,3 +239,18 @@
   });
 
 })()
+
+// Event Listener to disable right click mouse
+document.addEventListener('contextmenu', 
+     event => event.preventDefault()
+);
+
+// Event listener that prevents access to dev tool for visitors
+document.addEventListener("keydown", function (event){
+  if (event.ctrlKey){
+     event.preventDefault();
+  }
+  if(event.keyCode == 123){
+     event.preventDefault();
+  }
+});
