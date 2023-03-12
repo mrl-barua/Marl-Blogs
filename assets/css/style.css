@@ -1460,3 +1460,8 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+.giscus {
+  background-color: #F8F8F8;
+  width: 100%;
+}
