@@ -1465,3 +1465,9 @@ section {
   background-color: #F8F8F8;
   width: 100%;
 }
+
+.blurry{
+       
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+}
