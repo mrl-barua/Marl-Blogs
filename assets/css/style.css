@@ -11,6 +11,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+
+  /* BELOW ARE THE SETTINGS THAT WILL NOT ALLOW DRAG ON TEXTS */
+
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none;
+  -webkit-user-drag: none; /* Chrome/Safari */
+  user-drag: none;
+  -webkit-tap-highlight-color: transparent; /* Remove highlight on tap */
 }
 
 a {
