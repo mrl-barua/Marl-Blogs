@@ -254,3 +254,17 @@ document.addEventListener("keydown", function (event){
      event.preventDefault();
   }
 });
+
+
+// ANTI SCREENSHOT
+
+
+var antiScreenCapture = document.getElementById('antiScreenCapture');
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'PrintScreen') {
+    antiScreenCapture.style.opacity = 1;
+    setTimeout(function() {
+      antiScreenCapture.style.opacity = 0;
+    }, 100);
+  }
+});
