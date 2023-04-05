@@ -255,16 +255,15 @@ document.addEventListener("keydown", function (event){
   }
 });
 
-
-// ANTI SCREENSHOT
-
-
-var antiScreenCapture = document.getElementById('antiScreenCapture');
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'PrintScreen') {
-    antiScreenCapture.style.opacity = 1;
-    setTimeout(function() {
-      antiScreenCapture.style.opacity = 0;
-    }, 100);
+/** TO DISABLE SCREEN CAPTURE **/
+document.addEventListener('keyup', (e) => {
+  if (e.key == 'PrintScreen') {
+      navigator.clipboard.writeText('');
+      alert('Screenshots disabled!');
   }
 });
+
+
+
+
+
