@@ -264,6 +264,23 @@ document.addEventListener('keyup', (e) => {
 });
 
 
+// HASH VALUE IN THE URL
+{/* <script>
+  window.onload = function() {
+    var hash = window.location.hash;
+    if (hash === '#modal1') {
+      document.getElementById('modal1').style.display = 'block';
+    } else if (hash === '#modal2') {
+      document.getElementById('modal2').style.display = 'block';
+    } else if (hash === '#modal3') {
+      document.getElementById('modal3').style.display = 'block';
+    } else if (hash === '#modal4') {
+      document.getElementById('modal4').style.display = 'block';
+    } else if (hash === '#modal5') {
+      document.getElementById('modal5').style.display = 'block';
+    }
+  }
+</script> */}
 
 
 
