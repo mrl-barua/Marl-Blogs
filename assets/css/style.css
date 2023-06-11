@@ -23,6 +23,10 @@ body {
   -webkit-tap-highlight-color: transparent; /* Remove highlight on tap */
 }
 
+.profile img{
+  border-radius: 20%;
+}
+
 a {
   color: #cc1616;
   text-decoration: none;
